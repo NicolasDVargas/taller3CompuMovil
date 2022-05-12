@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/SignOut"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="Sign Out"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/Disponibilidad"
+        android:icon="@drawable/ic_baseline_brightness_1_24"
+        android:title="Disponible"
+        app:showAsAction="ifRoom|collapseActionView|withText" />
+    <item
+        android:id="@+id/Usuarios"
+        android:icon="@drawable/person"
+        android:title="Usuarios Disponibles"
+        app:showAsAction="collapseActionView" />
+
+</menu>
